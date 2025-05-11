@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body{
+    background-color: rgb(255, 255, 255);
+}
+
+.header-main{
+    width: 100%;
+    height: 60px;
+    background-color: orangered;
+    position: fixed;
+
+
+
+    
+
+}
+.header-main-logo{
+    width: fit-content;
+    height: 100%;
+    padding-left: 60px;
+    display: flex;
+    
+    
+}
+
+.header-main img{
+    width: 55px;
+    align-self: center;
+}
+
+.header-main-nav{
+    width: fit-content;
+    height: 100%;
+    margin-left: 15px
+    
+    
+}
+.header-main ul{
+    display: flex;
+    gap: 15px;
+    line-height: 60px;
+}
+
+.header-nav ul li{
+    display: inline;
+    float: left;
+
+}
+
+.header-nav ul li a{
+    padding: 0 10px;
+    line-height: 60px;
+    color: greenyellow;
+    
+}
+
+.header-icons{
+    width: 120px;
+    height: 100%;
+    background-color: red;
+    
+}
+
+.image-container{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+nav a:hover{
+    background-color: black;
+    color: aliceblue
+}
+
+.menu-icon{
+    display: none;
+    padding-right: 10px;
+}
+
+.menu-icon div{
+    width: 7px;
+    height: 2px;
+    background-color: whitesmoke;
+    margin-top: 4px;
+    padding-right: 10px;
+    border-radius: 2px;
+}
+
+.hero-section{
+    background-image: url(./photos\ d/student.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+      
+}
+
+.hero-content p{
+    text-align: center;
+    color: rgb(241, 168, 30);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1rem;
+}
+
+.hero-content {
+    text-align: center;
+    color: rgb(198, 132, 10);
+    font-size: large;
+    
+}
+button .hero{
+    background-color: aqua;
+    color: azure;
+    border: none;
+    padding: 10px 5px;
+    
+    
+}
+/*subjects*/
+
+.subjects{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+h1{
+    font-size: 35px;
+    font-weight:600;
+}
+p{
+    color: orangered;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+/**/
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subject-col{
+    flex-basis: 31%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.subject-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+/*campus*/
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.layer{
+    width: 100%;
+    height: 300px;
+}
+
+.layer img{
+    height: 100%;
+    border-left-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px){
+    body{
+        
+    }
+    .row{
+        flex-direction: column;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
